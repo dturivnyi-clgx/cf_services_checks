@@ -1,10 +1,10 @@
 ---
 applications:
-  - name: cook
-    host: cookie
+  - name: test-config-server
+    host: test-config-server
     instances: 1
     memory: 1G
     services:
-      - cook-config-server
+      - config-server-test
     env:
       SPRING_PROFILES_ACTIVE: development
