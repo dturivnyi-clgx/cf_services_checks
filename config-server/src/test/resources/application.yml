@@ -1,0 +1,9 @@
+---
+spring:
+  config:
+    activate:
+      on-profile: test
+
+cook:
+  special: Frog Legs
+secretMenu: Tofu Surprise
