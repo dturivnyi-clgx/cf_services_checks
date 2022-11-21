@@ -1,9 +1,9 @@
 ---
 applications:
 - name: cf-redis-commander
-  memory: 256M
+  memory: 512M
   instances: 1
   host: cf-redis-commander
   services:
-    - datasync-datastore-redis-data
+    - redis-test
     

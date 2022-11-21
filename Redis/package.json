@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cfenv": "^1.0.0",
-    "redis-commander": "^0.3.2"
+    "cfenv": "^1.1.0",
+    "redis-commander": "^0.4.5"
   }
 }
